@@ -1,0 +1,66 @@
+body {
+    background-color: powderblue;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    border: 3;
+}
+
+#header {
+    font-family: "IMPACT";
+    text-align: center;
+}
+
+#nav {
+    float: left;
+    width: 150px;
+}
+
+#main {
+    float: right;
+    width: 600px;
+    font-family: "Informal Roman";
+    font-size: 20;
+    text-align: justify;
+}
+
+#footer {
+    clear: both;
+    height: 30px;
+    line-height: 20px;
+}
+
+h1 {
+    color: red;
+    font-size: 35;
+}
+
+p {
+    color: black;
+}
+
+marquee {
+    behavior: alternate;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
